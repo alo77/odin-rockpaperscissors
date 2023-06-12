@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@font-face {
+    font-family: 'BungeeSpice-Regular' 'Ubuntu-Bold' 'Ubuntu-Regular';
+    src: url('fonts/BungeeSpice-Regular.woff2') format('woff2'),
+         url('fonts/Ubuntu-Bold.woff2') format('woff'),
+         url('fonts/Ubuntu-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+    font-family: 'BungeeSpice-Regular';
+    background-color: white;
+    font-size: 32px;
+    padding: 16px;
+}
