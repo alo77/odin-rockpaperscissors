@@ -149,3 +149,13 @@ span.orange {
     padding: 8px;
     font-size: 3em;
 }
+
+#main .row.choices {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#main .row.results {
+    flex-flow: column wrap;
+}
