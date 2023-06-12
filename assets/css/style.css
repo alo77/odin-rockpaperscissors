@@ -159,3 +159,31 @@ span.orange {
 #main .row.results {
     flex-flow: column wrap;
 }
+
+#main #score {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 28px;
+    margin-top: 32px;
+}
+
+#main #score h4{
+    margin: 0;
+}
+
+#main #score span {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px 0 16px;
+}
+
+#main .pScore, #main .cScore {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
