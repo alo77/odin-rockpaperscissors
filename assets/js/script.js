@@ -105,3 +105,25 @@ function getWinner(pWin, cWin) {
     else if (pWin == cWin) return tieText;
     else return loseText;
 }
+
+// Dynameos background code easter egg
+let dynameos = false;
+const keyPattern = ["d", "y", "n", "a", "m", "e", "o", "s"];
+let current = 0;
+document.addEventListener('keydown', keyHandler, false);
+
+function keyHandler(e) {
+    if (keyPattern.indexOf(e.key) < 0 || e.key !== keyPattern[current]) {
+        current = 0;
+        return;
+    }
+
+    current++;
+    if (keyPattern.length === current) dynameos = true;
+};
+
+function changeBg(bgType="") {
+    if (dynameos)
+        document.body.style.backgroundImage = `url(assets/images/${bgType}.jpg)`;
+    else return;
+}
