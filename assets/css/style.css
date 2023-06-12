@@ -196,3 +196,29 @@ span.orange {
 #main .roundResult.announced {
     transform: scale(1.2);
 }
+
+#main #gameResult {
+    font-size: 2em;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    color: #f98533;
+    text-align: center;
+}
+
+#main .playAgainBtn {
+    padding: 8px;
+    border: 0;
+    font-size: 24px;
+    color: darkgray;
+    background-color: transparent;
+    flex: 1;
+    transition: 0.2s;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#main .playAgainBtn:hover {
+    text-decoration: underline;
+    color: white;  
+}
