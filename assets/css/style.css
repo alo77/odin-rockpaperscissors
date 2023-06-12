@@ -73,10 +73,22 @@
 }
 
 header {
-    font-family: 'BungeeSpice-Bold';
+    font-family: 'BungeeSpice-Bold', sans-serif;
     background-color: white;
-    color: hsl(22, 100%, 45%);
-    text-transform: ;
+    color: hsl(24, 100%, 45%);
     font-size: 32px;
     padding: 16px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 135, 74);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
 }
