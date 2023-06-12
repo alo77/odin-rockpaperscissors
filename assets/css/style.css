@@ -78,7 +78,6 @@
 
 header {
     font-family: 'bungeespice-regular', sans-serif;
-    background-color: white;
     color: hsl(24, 100%, 45%);
     font-size: 32px;
     padding: 16px;
@@ -89,12 +88,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 135, 74);
     background-size: cover;
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
-    color: white;
     font-family: 'ubuntu';
+    background-image: url("assets/images/back");
+    background-attachment: fixed;
 }
 
 .container {
@@ -109,15 +108,15 @@ body {
 }
 
 span.pink {
-    color: #e3006c;
+    color: #05ff6d;
 }
 
 span.purple {
-    color: #6c0983;
+    color: #de4dff;
 }
 
 span.orange {
-    color: #f98533;
+    color: #ff6a00;
 }
 
 #main button {
@@ -225,7 +224,6 @@ span.orange {
 
 footer {
     padding: 16px;
-    background-color: white;
     color: rgb(53, 53, 53);
     text-align: center;
 }
