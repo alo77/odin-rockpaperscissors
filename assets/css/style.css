@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 @font-face {
-    font-family: 'sans-serif';
-    src: url('fonts/BungeeSpice-Regular.woff2') format('woff2'),
-         url('fonts/Ubuntu-Bold.woff2') format('woff'),
-         url('fonts/Ubuntu-Regular.woff2') format('woff');
+    font-family: 'bungeespice-regular';
+    src: url('fonts/bungeespice-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('fonts/ubuntu-bold.woff2') format('woff');
+    src: url('fonts/ubuntu-regular.woff2') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
 }
 
 @media (max-width: 500px) {
@@ -73,7 +78,7 @@
 }
 
 header {
-    font-family: 'BungeeSpice-Bold', sans-serif;
+    font-family: 'bungeespice-regular.woff2', sans-serif;
     background-color: white;
     color: hsl(24, 100%, 45%);
     font-size: 32px;
@@ -91,4 +96,27 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.pink {
+    color: #e3006c;
+}
+
+span.purple {
+    color: #6c0983;
+}
+
+span.orange {
+    color: #f98533;
 }
