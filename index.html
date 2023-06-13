@@ -32,24 +32,38 @@
         </svg>
     </header>
 
-    <section id="main">
-        <div class="container">
-            <div class="row choices">
+    <section>
+        <div class="flex-container">
+        <div class="row choices">
+            <div class="flex-items" id="rock">
                 <button data-choice="Rock">
+                    <img src="assets/images/rock.png" alt="rock">
+                    <!--
                     <p>&#129704;</p>
-                    <span class="orange"> Rock </span>
-                </button>
-
-                <button data-choice="Paper">
-                    <p>&#128220;</p>
-                    <span class="pink"> Paper </span>
-                </button>
-
-                <button data-choice="Scissors">
-                    <p>&#9986;&#65039;</p>
-                    <span class="purple"> Scissors </span>
+                    <span class="rock"> Rock </span>
+                    -->
                 </button>
             </div>
+            <div class="flex-items" id="paper">
+                <button data-choice="Paper">
+                    <img src="assets/images/paper.png" alt="rock">
+                    <!--
+                    <p>&#128220;</p>
+                    <span class="paper"> Paper </span>
+                    -->
+                </button>
+            </div>
+            <div class="flex-items"  id="scissors">
+                <button data-choice="Scissors">
+                    <img src="assets/images/scissors.png" alt="rock">
+                    <!--
+                    <p>&#9986;&#65039;</p>
+                    <span class="scissors"> Scissors </span>
+                    -->
+                </button>
+            </div>
+        </div>
+        </div>
     </section>
 
     <section id="main">
@@ -74,7 +88,7 @@
 </body>
 
 <footer>
-    <div class="container">
+    <div class="footer">
         <div class="row">
             <p> Copyright &copy <a href="https://github.com/alo77" target="_blank">alo77</a> 2023. All rights reserved.</p>
         </div>

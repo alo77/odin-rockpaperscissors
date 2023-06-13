@@ -148,16 +148,16 @@ body {
     align-items: center;
 }
 
-span.pink {
-    color: #05ff6d;
+span.rock {
+    color: #B3A2E3;
 }
 
-span.purple {
-    color: #de4dff;
+span.paper {
+    color: #FFA6AC;
 }
 
-span.orange {
-    color: #ff6a00;
+span.scissors {
+    color: #00D9D9;
 }
 
 .button {
@@ -190,14 +190,141 @@ span.orange {
     font-size: 3em;
 }
 
-#main button {
+#rock button {
     padding: 8px;
-    border: 10px solid white;
+    border: 10px solid #7D5BDE;
     border-radius: 20px;
     background-color: transparent;
     font-size: 32px;
     width: 150px;
-    background-color: white;
+    background-color: #7D5BDE;
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .07s ease;
+}
+
+#rock button.chosen {
+    transform: rotate(90deg);
+    background-color:#35275F;
+}
+
+#rock .row.choices button:hover {
+    background-color: #35275F;
+}
+
+#paper button p {
+    margin: 0;
+    padding: 8px;
+    font-size: 3em;
+}
+
+#paper button {
+    padding: 8px;
+    border: 10px solid #F35560;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 30px;
+    width: 150px;
+    background-color: #F35560;
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .07s ease;
+    text-decoration-color: #A62A32;
+}
+
+#paper button.chosen {
+    transform: rotate(90deg);
+    background-color:#A62A32;
+}
+
+#paper .row.choices button:hover {
+    background-color: #A62A32;
+}
+
+#scissors button p {
+    margin: 0;
+    padding: 8px;
+    font-size: 3em;
+}
+
+#scissors button {
+    padding: 8px;
+    border: 10px solid #2A8D8D;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 30px;
+    font-size-adjust:calc();
+    width: 150px;
+    background-color: #2A8D8D;
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .07s ease;
+    text-decoration-color: #1B5A5A;
+}
+
+#scissors button.chosen {
+    transform: rotate(90deg);
+    background-color:#1B5A5A;
+}
+
+#scissors .row.choices button:hover {
+    background-color: #1B5A5A;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+
+#main button {
+    padding: 8px;
+    border: 10px solid #7D5BDE;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 32px;
+    width: 150px;
+    background-color: #7D5BDE;
     flex: 1;
     font-weight: bold;
     text-transform: uppercase;
@@ -208,11 +335,11 @@ span.orange {
 
 #main button.chosen {
     transform: rotate(90deg);
-    background-color:rgb(53, 53, 53);
+    background-color:#35275F;
 }
 
 #main .row.choices button:hover {
-    background-color: gainsboro;
+    background-color: #35275F;
 }
 
 #main button p {
@@ -298,11 +425,11 @@ footer {
     padding: 16px;
     color: rgb(53, 53, 53);
     text-align: center;
+    background-color:#7D5BDE;
 }
 
 footer a {
-    text-decoration: wavy;
-    text-decoration-color: #f98533;
+    text-decoration: none;
     color: rgb(53, 53, 53);
     transition: 0.2s;
 }
