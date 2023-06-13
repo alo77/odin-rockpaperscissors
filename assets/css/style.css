@@ -92,13 +92,13 @@
 
 :root {
     background: url("../images/background-tropical1.png") center no-repeat;
-    background-size: cover;
+    background-size:cover;
     overflow: scroll;
   }
 
 header {
     font-family: 'bungeeinline-regular', sans-serif;
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
     font-size: 32px;
     padding: 16px;
 }
@@ -135,6 +135,13 @@ body {
     background-attachment: fixed;
 }
 
+.h6 {
+    margin: 0;
+    font-family: 'bungeeinline-regular', sans-serif;
+    font-size: 20pt;
+    color: #a4fffc;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1600px;
@@ -155,6 +162,10 @@ span.paper {
 }
 
 span.scissors {
+    color: #00D9D9;
+}
+
+span.scores {
     color: #00D9D9;
 }
 
@@ -194,7 +205,13 @@ span.scissors {
     border-radius: 20px;
     background-color: transparent;
     font-size: 32px;
-    width: 150px;
+    scale: 100%;
+    min-width: 150px;
+    min-height: 250px;
+    max-width: 200px;
+    max-height: 250px;
+    max-width: 200px;
+    max-height: 250px;
     background-color: #7D5BDE;
     flex: 1;
     font-weight: bold;
@@ -224,7 +241,10 @@ span.scissors {
     border-radius: 20px;
     background-color: transparent;
     font-size: 30px;
-    width: 150px;
+    min-width: 150px;
+    min-height: 250px;
+    max-width: 200px;
+    max-height: 250px;
     background-color: #F35560;
     flex: 1;
     font-weight: bold;
@@ -256,7 +276,10 @@ span.scissors {
     background-color: transparent;
     font-size: 30px;
     font-size-adjust:calc();
-    width: 150px;
+    min-width: 150px;
+    min-height: 250px;
+    max-width: 200px;
+    max-height: 250px;
     background-color: #2A8D8D;
     flex: 1;
     font-weight: bold;
@@ -283,9 +306,10 @@ span.scissors {
     align-items: center;
     align-content: center;
     margin: auto;
-    max-width: 1600px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
+    scale: 100%;
   }
   
   .flex-items:nth-child(1) {
@@ -373,13 +397,26 @@ span.scissors {
 #main #score span {
     font-size: 1.5em;
     font-weight: bold;
-    background-color: rgb(182, 233, 255);
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 12px;
     margin: 8px 0 16px;
 }
 
-#main .pScore, #main .cScore {
+#main .cScore {
+    font-family: 'bungeeinline-regular';
+    color: #00D9D9;
+    font-size: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main .pScore {
+    font-family: 'bungeeinline-regular';
+    color: #7D5BDE;
+    font-size: 40px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -398,7 +435,7 @@ span.scissors {
 #main #gameResult {
     font-size: 2em;
     background-color: white;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     color: #f98533;
     text-align: center;
@@ -423,18 +460,18 @@ span.scissors {
 
 footer {
     padding: 16px 0px 50px 0px;
-    color: rgb(53, 53, 53);
+    color: #ffffff;
     text-align: center;
-    background-color:#7D5BDE;
+    background-color:#2A8D8D;
 }
 
 footer a {
     text-decoration: none;
-    color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
     transition: 0.2s;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #f98533;
+    color: #a4fffc;
 }
