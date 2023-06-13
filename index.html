@@ -14,10 +14,22 @@
 
     <header>
         <div class="container">
-            <div class="row">
-                <h1> Rock, Paper, Scissors! </h1>
-            </div>
+            <div id="animated-text">
+                <span id="text1"></span>
+                <span id="text2"></span>
+             </div>
         </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
     </header>
 
     <section id="main">
@@ -32,7 +44,7 @@
                     <p>&#128220;</p>
                     <span class="pink"> Paper </span>
                 </button>
-                
+
                 <button data-choice="Scissors">
                     <p>&#9986;&#65039;</p>
                     <span class="purple"> Scissors </span>

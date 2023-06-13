@@ -1,6 +1,20 @@
 @font-face {
+    font-family: 'bungeeinline-regular';
+    src: url('fonts/bungeeinline-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'bungeespice-regular';
     src: url('fonts/bungeespice-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HanaleiFill-Regular';
+    src: url('fonts/HanaleiFill-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -85,10 +99,30 @@
   }
 
 header {
-    font-family: 'bungeespice-regular', sans-serif;
-    color: hsl(24, 100%, 45%);
+    font-family: 'bungeeinline-regular', sans-serif;
+    color: hsl(0, 0%, 100%);
     font-size: 32px;
     padding: 16px;
+}
+
+#animated-text {
+    font-family: 'HanaleiFill-Regular', sans-serif;
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    font-family: 'HanaleiFill-Regular', sans-serif;
+    font-size: 60pt;
+    text-align: center;
+    user-select: none;
 }
 
 body {
@@ -100,7 +134,6 @@ body {
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
     font-family: 'ubuntu';
-    background-image: url("assets/");
     background-attachment: fixed;
 }
 
@@ -127,7 +160,7 @@ span.orange {
     color: #ff6a00;
 }
 
-.rock-button {
+.button {
     padding: 8px;
     border: 10px solid #7D5BDE;
     border-radius: 20px;
