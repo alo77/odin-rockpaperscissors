@@ -76,6 +76,14 @@
     }
 }
 
+:root {
+    min-width: 820px;
+    min-height: 550px;
+    background: url("../images/background-tropical1.png") center no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+
 header {
     font-family: 'bungeespice-regular', sans-serif;
     color: hsl(24, 100%, 45%);
