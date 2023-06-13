@@ -92,7 +92,7 @@ body {
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
     font-family: 'ubuntu';
-    background-image: url("assets/images/back");
+    background-image: url("assets/");
     background-attachment: fixed;
 }
 
