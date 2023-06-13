@@ -93,7 +93,7 @@
 :root {
     background: url("../images/background-tropical1.png") center no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow: scroll;
   }
 
 header {
@@ -373,7 +373,7 @@ span.scissors {
 #main #score span {
     font-size: 1.5em;
     font-weight: bold;
-    background-color: white;
+    background-color: rgb(182, 233, 255);
     border-radius: 10px;
     padding: 12px;
     margin: 8px 0 16px;
@@ -422,7 +422,7 @@ span.scissors {
 }
 
 footer {
-    padding: 16px 0px 300px 0px;
+    padding: 16px 0px 50px 0px;
     color: rgb(53, 53, 53);
     text-align: center;
     background-color:#7D5BDE;
