@@ -157,7 +157,6 @@ span.orange {
     font-size: 3em;
 }
 
-/*-----
 #main button {
     padding: 8px;
     border: 10px solid white;
@@ -188,7 +187,6 @@ span.orange {
     padding: 8px;
     font-size: 3em;
 }
------*/
 
 #main .row.choices {
     justify-content: space-between;
