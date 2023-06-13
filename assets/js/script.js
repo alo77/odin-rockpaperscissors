@@ -7,7 +7,7 @@ const roundResult = document.querySelector(".roundResult");
 const gameResultDiv = document.querySelector("#gameResult");
 const pScore = document.querySelector(".pScore span");
 const cScore = document.querySelector(".cScore span");
-const resultContainer = document.querySelector("#main .row.results #rock #paper #scissors");
+const resultContainer = document.querySelector("#main .row.results #rock #paper #scissors #score");
 
 const elts = {
     text1: document.getElementById("text1"),

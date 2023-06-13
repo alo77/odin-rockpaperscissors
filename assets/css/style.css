@@ -92,7 +92,7 @@
 
 :root {
     background: url("../images/background-tropical1.png") center no-repeat;
-    background-size: ;
+    background-size: cover;
     overflow: hidden;
   }
 
@@ -104,7 +104,7 @@ header {
 }
 
 #animated-text {
-    font-family: 'HanaleiFill-Regular', sans-serif;
+    font-family: 'bungeeinline-regular', sans-serif;
     position: relative;
     margin: auto;
     top: 0;
@@ -117,7 +117,7 @@ header {
     position: absolute;
     width: 100%;
     display: inline-block;
-    font-family: 'HanaleiFill-Regular', sans-serif;
+    font-family: 'bungeeinline-regular', sans-serif;
     font-size: 60pt;
     text-align: center;
     user-select: none;
@@ -295,6 +295,7 @@ span.scissors {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    margin-right: 20px;
   }
   
   .flex-items:nth-child(2) {
@@ -303,7 +304,8 @@ span.scissors {
     flex-shrink: 1;
     flex-basis: auto;
     align-self: auto;
-    order: 0;
+    order: 1;
+    margin-right: 20px;
   }
   
   .flex-items:nth-child(3) {
@@ -312,7 +314,7 @@ span.scissors {
     flex-shrink: 1;
     flex-basis: auto;
     align-self: auto;
-    order: 0;
+    order: 2;
   }
 
 #main button {
@@ -360,7 +362,7 @@ span.scissors {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 32px;
 }
 
@@ -372,8 +374,8 @@ span.scissors {
     font-size: 1.5em;
     font-weight: bold;
     background-color: white;
-    border-radius: 20px;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 12px;
     margin: 8px 0 16px;
 }
 
@@ -396,8 +398,8 @@ span.scissors {
 #main #gameResult {
     font-size: 2em;
     background-color: white;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 0px;
+    padding: 10px;
     color: #f98533;
     text-align: center;
 }
@@ -405,8 +407,8 @@ span.scissors {
 #main .playAgainBtn {
     padding: 8px;
     border: 0;
-    font-size: 24px;
-    color: darkgray;
+    font-size: 40px;
+    color: #ffffff;
     background-color: transparent;
     flex: 1;
     transition: 0.2s;
