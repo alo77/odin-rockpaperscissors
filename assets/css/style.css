@@ -127,13 +127,44 @@ span.orange {
     color: #ff6a00;
 }
 
-#main button {
+.rock-button {
     padding: 8px;
-    border: 4px solid white;
+    border: 10px solid #7D5BDE;
     border-radius: 20px;
     background-color: transparent;
     font-size: 32px;
-    width: 200px;
+    width: 125px;
+    background-color: #7D5BDE;
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .07s ease;
+}
+
+.rock button.chosen {
+    transform: rotate(90deg);
+    background-color:rgb(53, 53, 53);
+}
+
+#main .row.choices-rock button:hover {
+    background-color: #35275F;
+}
+
+#rock button p {
+    margin: 0;
+    padding: 8px;
+    font-size: 3em;
+}
+
+/*-----
+#main button {
+    padding: 8px;
+    border: 10px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 32px;
+    width: 150px;
     background-color: white;
     flex: 1;
     font-weight: bold;
@@ -141,6 +172,7 @@ span.orange {
     cursor: pointer;
     transition: all .07s ease;
 }
+
 
 #main button.chosen {
     transform: rotate(90deg);
@@ -156,6 +188,7 @@ span.orange {
     padding: 8px;
     font-size: 3em;
 }
+-----*/
 
 #main .row.choices {
     justify-content: space-between;
