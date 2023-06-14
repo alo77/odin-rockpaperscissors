@@ -143,6 +143,7 @@ body {
 }
 
 .container {
+    font-family: 'bungeeinline-regular';
     margin: 0 auto;
     max-width: 1600px;
 }
