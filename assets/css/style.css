@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'bungeespace-regular', sans-serif;
+    font-family: 'bungeespice-regular', sans-serif;
     src: url('fonts/bungeespice-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -416,7 +416,7 @@ span.scores {
 
 #main .pScore {
     font-family: 'bungeeinline-regular', sans-serif;
-    color: #7D5BDE;
+    color: #F35560;
     font-size: 40px;
     flex: 1;
     display: flex;
@@ -425,7 +425,7 @@ span.scores {
 }
 
 #main .roundResult {
-    font-size: 40px;
+    font-size: 30px;
     transition: all .25s ease;
 }
 
