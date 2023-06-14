@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'bungeeinline-regular';
+    font-family: 'bungeeinline-regular', sans-serif;
     src: url('fonts/bungeeinline-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'bungeespice-regular';
+    font-family: 'bungeespace-regular', sans-serif;
     src: url('fonts/bungeespice-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -92,7 +92,7 @@
 
 :root {
     background: url("../images/background-tropical1.png") center no-repeat;
-    background-size:cover;
+    background-size: cover;
     overflow: scroll;
   }
 
@@ -405,7 +405,7 @@ span.scores {
 }
 
 #main .cScore {
-    font-family: 'bungeeinline-regular';
+    font-family: 'bungeeinline-regular', sans-serif;
     color: #00D9D9;
     font-size: 40px;
     flex: 1;
@@ -415,7 +415,7 @@ span.scores {
 }
 
 #main .pScore {
-    font-family: 'bungeeinline-regular';
+    font-family: 'bungeeinline-regular', sans-serif;
     color: #7D5BDE;
     font-size: 40px;
     flex: 1;
