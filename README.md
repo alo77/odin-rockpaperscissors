@@ -28,11 +28,9 @@ Pirate vs Tiki Bot Rock-Paper-Scissors project developed for the Foundations Cer
 
 ## Technologies Used
 
-- **JavaScript**: Core functionality and game logic.
+- **JavaScript**: Core functionality, game logic, game communications, and animated elements for interactive gameplay.
 
 - **HTML/CSS**: Structure and styling of the game interface.
-
-- **CSS Animations**: Animated elements for interactive gameplay.
 
 ## Game Mechanics
 
